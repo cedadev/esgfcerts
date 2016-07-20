@@ -53,7 +53,7 @@ add_file()
 {
     dir=$1
     name=$2
-    orig_name=$3
+    orig_name=$3  # OPTIONAL
 
     [ -z $orig_name ] && orig_name=$name
     cp -v $indir/$orig_name $dir/$cdir/$name
@@ -71,7 +71,7 @@ add_cert()
 {
     dir=$1
     name=$2
-    orig_name=$3
+    orig_name=$3  # OPTIONAL
 
     add_file $dir $name $orig_name
     alias=${name/\.0/}  # strip .0 but preserve .1
