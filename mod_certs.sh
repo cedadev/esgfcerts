@@ -145,4 +145,4 @@ del_file $outdir_replace 993715d8.signing_policy
 add_cert $outdir_replace 439ce3f7.0
 add_cert $outdir_replace 09184877.0
 add_file $outdir_replace 09184877.signing_policy
-package $outdir_replace allca-with-new-ceda-replaced.tgz
+package $outdir_replace allca-with-ceda-replaced.tgz
