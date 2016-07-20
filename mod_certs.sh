@@ -22,7 +22,7 @@
 #  
 
 
-base=/home/iwi/Desktop/cert
+base=/home/iwi/Desktop/cert   # <==== CHANGE THIS TO POINT TO FULL PATH OF DIRECTORY CONTAINING THE SCRIPT
 indir=$base/inputs
 outdir_add=$base/new-with-add
 outdir_replace=$base/new-with-replace
